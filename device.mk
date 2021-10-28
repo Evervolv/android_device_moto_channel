@@ -19,7 +19,7 @@ $(call inherit-product, vendor/moto/channel/channel-vendor.mk)
 
 
 # Properties
--include $(LOCAL_PATH)/vendor_prop.mk
+-include $(LOCAL_PATH)/properties.mk
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
