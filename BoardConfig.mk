@@ -20,6 +20,7 @@
 DEVICE_PATH := device/moto/channel
 
 # Assertions
+TARGET_BOARD_INFO_FILE := device/moto/channel/board-info.txt
 TARGET_OTA_ASSERT_DEVICE := channel
 
 # Init
