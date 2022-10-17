@@ -84,3 +84,7 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from motorola sdm632-common
 $(call inherit-product, device/moto/sdm632-common/common.mk)
+
+# VNDK
+PRODUCT_COPY_FILES += \
+    prebuilts/vndk/v32/arm64/arch-arm-armv8-a/shared/vndk-sp/libutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libutils-v32.so
